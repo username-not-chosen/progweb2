@@ -9,8 +9,10 @@ function compareA(a, b){
 
 function compareB(a, b){
 
-    if (a = b){
-      console.log(false);
+    if (a === b){
+      console.log(true);
+    } else {
+        console.log(false);
     }
 }
 
